@@ -1,6 +1,5 @@
 rootProject.name = "Tasks"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
-
 pluginManagement {
     repositories {
         google {
@@ -14,7 +13,6 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-
 dependencyResolutionManagement {
     repositories {
         google {
@@ -38,10 +36,10 @@ dependencyResolutionManagement {
         }
     }
 }
-
 include("app")
 include("data")
 include(":kmp")
 include(":icons")
 include(":wear")
 include(":wear-datalayer")
+include(":desktop")
