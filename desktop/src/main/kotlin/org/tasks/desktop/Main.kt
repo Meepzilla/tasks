@@ -27,13 +27,13 @@ fun App() {
                 verticalArrangement = Arrangement.Center
             ) {
                 Text(
-                    text = "Tasks Desktop App",
+                    text = "Tasks Desktop App — Hello, world!",
                     style = MaterialTheme.typography.headlineMedium,
                     color = MaterialTheme.colorScheme.onBackground
                 )
                 Spacer(modifier = Modifier.height(16.dp))
                 Text(
-                    text = "This will eventually connect to shared logic.",
+                    text = "Ready for connecting to shared KMP logic",
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onBackground
                 )
@@ -45,7 +45,7 @@ fun App() {
 fun main() = application {
     Window(
         onCloseRequest = ::exitApplication,
-        title = "Tasks"
+        title = "Tasks Desktop App"
     ) {
         App()
     }
